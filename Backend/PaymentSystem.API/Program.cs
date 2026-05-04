@@ -91,10 +91,10 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
     {
-        policy.WithOrigins("http://localhost:5173", "http://localhost:3000")
-              .AllowAnyHeader()
-              .AllowAnyMethod()
-              .WithExposedHeaders("Content-Disposition");
+        policy.AllowAnyOrigin()
+      .AllowAnyHeader()
+      .AllowAnyMethod()
+      .WithExposedHeaders("Content-Disposition");
     });
 });
 
@@ -109,7 +109,10 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseCors("AllowFrontend");
-app.UseStaticFiles(); // Serve PDFs from wwwroot/receipts
+app.UseStaticFiles(); 
+app.UseDefaultFiles();
+app.UseStaticFiles();
+app.MapFallbackToFile("index.html");
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
