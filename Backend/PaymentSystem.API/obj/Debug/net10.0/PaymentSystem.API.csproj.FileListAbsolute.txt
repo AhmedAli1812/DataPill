@@ -1,0 +1,8 @@
+A:\Paymsent System\Backend\PaymentSystem.API\obj\Debug\net10.0\PaymentSystem.API.csproj.AssemblyReference.cache
+A:\Paymsent System\Backend\PaymentSystem.API\obj\Debug\net10.0\rpswa.dswa.cache.json
+A:\Paymsent System\Backend\PaymentSystem.API\obj\Debug\net10.0\PaymentSystem.API.GeneratedMSBuildEditorConfig.editorconfig
+A:\Paymsent System\Backend\PaymentSystem.API\obj\Debug\net10.0\PaymentSystem.API.AssemblyInfoInputs.cache
+A:\Paymsent System\Backend\PaymentSystem.API\obj\Debug\net10.0\PaymentSystem.API.AssemblyInfo.cs
+A:\Paymsent System\Backend\PaymentSystem.API\obj\Debug\net10.0\PaymentSystem.API.csproj.CoreCompileInputs.cache
+A:\Paymsent System\Backend\PaymentSystem.API\obj\Debug\net10.0\PaymentSystem.API.MvcApplicationPartsAssemblyInfo.cs
+A:\Paymsent System\Backend\PaymentSystem.API\obj\Debug\net10.0\PaymentSystem.API.MvcApplicationPartsAssemblyInfo.cache
